@@ -1,13 +1,13 @@
 # https://github.com/AlexxIT/builder/blob/master/builder.sh
-name: go2rtc master
+name: go2rtc mitchhh22
 description: The latest unstable version
-url: https://github.com/AlexxIT/go2rtc
-image: alexxit/go2rtc
+url: https://github.com/mitchhh22/go2rtc
+image: mitchhh22/go2rtc
 arch: [ amd64, aarch64, i386, armv7 ]
 
 # https://developers.home-assistant.io/docs/add-ons/configuration
-version: master
-slug: go2rtc-master
+version: arm64
+slug: go2rtc-mitchhh22
 init: false
 startup: system
 host_network: true
